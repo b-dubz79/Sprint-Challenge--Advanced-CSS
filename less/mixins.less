@@ -1,1 +1,25 @@
 // Mixins Here
+
+.btnMix(@buttonColor, @fontColor){
+    background-color: @buttonColor;
+    color: @fontColor;
+    border-radius: 5px;
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 8px;
+    &:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+.marginAuto() {
+    margin: 0 auto;
+}
+
+.flexCenter() {
+    display: flex;
+    justify-content: center;
+}
